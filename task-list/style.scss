@@ -1,0 +1,21 @@
+body {
+  background-color: #121212;
+}
+
+.card {
+  margin-top: 25%;
+}
+
+input[type='text'],
+input[type='text']:focus {
+  background-color: inherit;
+}
+
+input[type='text']:focus {
+  box-shadow: none;
+}
+
+ul {
+  list-style: none;
+  padding-right: 2rem;
+}
