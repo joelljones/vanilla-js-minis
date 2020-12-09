@@ -1,1 +1,1 @@
-body{background-color:#121212}.card{margin-top:25%}input[type='text'],input[type='text']:focus{background-color:inherit}input[type='text']:focus{-webkit-box-shadow:none;box-shadow:none}ul{list-style:none;padding-right:2rem}
+body{background-color:#121212}.card{margin-top:25%}input[type='text'],input[type='text']:focus{background-color:inherit;border-left:0;border-right:0}input[type='text']:focus{-webkit-box-shadow:none;box-shadow:none}ul{list-style:none;padding-right:2rem}

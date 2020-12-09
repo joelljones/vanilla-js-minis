@@ -42,7 +42,7 @@ function getTasks() {
     const span = document.createElement('span');
 
     // add class
-    span.className = 'remove-task ml-auto';
+    span.className = 'remove-task ms-auto';
 
     // add icon html
     span.innerHTML = '<img src="x-square.svg" alt="" title="Bootstrap">';
@@ -73,7 +73,7 @@ function addTask(e) {
   const span = document.createElement('span');
 
   // add class
-  span.className = 'remove-task ml-auto';
+  span.className = 'remove-task ms-auto';
 
   // add icon html
   span.innerHTML = '<img src="x-square.svg" alt="" title="Bootstrap">';
