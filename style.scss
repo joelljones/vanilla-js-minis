@@ -1,0 +1,34 @@
+$primary: #d0aa61;
+$secondary: #bf8b38;
+$dark: #9f783c;
+$light: #e0d3b0;
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $secondary;
+    border-color: $secondary;
+  }
+}
+
+.album {
+  background-color: $light;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
