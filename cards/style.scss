@@ -1,0 +1,71 @@
+$img-1: url('https://pbs.twimg.com/media/Eo6veXGXMAIysDC?format=png&name=large');
+$img-2: url('https://pbs.twimg.com/media/Eo6vnDaXcAMtOGS?format=png&name=large');
+$img-3: url('https://pbs.twimg.com/media/Eo6vzMcXEAQ80Y7?format=png&name=large');
+$img-4: url('https://pbs.twimg.com/media/Eo6wAwJXEAUjRkD?format=png&name=large');
+$img-5: url('https://pbs.twimg.com/media/Eo6wSm5WMAA8I8B?format=png&name=large');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 0.5rem;
+  height: 90vh;
+  flex: 0.25;
+  transition: flex 0.5s ease-in;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &.active {
+    flex: 2.5;
+  }
+}
+
+#card-1 {
+  background-image: $img-1;
+}
+
+#card-2 {
+  background-image: $img-2;
+}
+
+#card-3 {
+  background-image: $img-3;
+}
+
+#card-4 {
+  background-image: $img-4;
+}
+
+#card-5 {
+  background-image: $img-5;
+}
+
+// media query
+@media (max-width: 767px) {
+  .container {
+    width: 97.5vw;
+  }
+
+  #card-4,
+  #card-5 {
+    display: none;
+  }
+}
