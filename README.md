@@ -1,2 +1,3 @@
 # vanilla-js-minis
-Vanilla JavaScript mini projects
+
+🍦 Vanilla JavaScript mini projects
