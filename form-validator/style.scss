@@ -49,26 +49,26 @@ a {
 
     label {
       color: $dark;
+    }
 
-      input {
-        display: block;
-        width: 100%;
-        margin: 0.5rem 0;
-        padding: 0.5rem;
-        border: 1px solid $medium;
-        border-radius: 0.25rem;
-      }
+    input {
+      display: block;
+      width: 100%;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      border: 1px solid $medium;
+      border-radius: 0.25rem;
     }
 
     &.success input {
       border-color: $success;
     }
 
-    &.error input {
+    &.err input {
       border-color: $error;
     }
 
-    &.error small {
+    &.err small {
       visibility: visible;
     }
 
